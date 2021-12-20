@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BMI  programm</title> 
+  <link rel="stylesheet" href="style.css">     
+</head>
+
+
+<body>  
+ <div class="bmi-form">  	 	
+  <form name="singin">
+   <p><strong>Узнайте свой ИМТ</strong></p>
+   <p>
+     <label for="name"></label><br>
+     <input placeholder="Введите Имя" required  class="namec" type="text" id="name" name="log">
+   </p>
+   <p>
+     <label for="weight"></label><br>	
+     <input placeholder=" Введите весь" required class="weightc" type="number" id="weight" name="weight">
+   </p>
+
+    <p>
+     <label for="height"></label><br> 
+     <input placeholder="Введите рост" required class="heightc" type="number" id="height" name="height">
+   </p>
+
+   <button href="#" class="btn1" type="button" onclick="imt();">Получить результат</button>
+ </form>	
+
+ <div id="result" class="result"></div>
+
+
+ 
+</div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

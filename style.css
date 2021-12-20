@@ -1,0 +1,71 @@
+body {
+	margin: 0 auto;	
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+	font-size: 25px;  
+}
+
+p {
+	margin: 0;
+}
+
+/* Свойства страницы bmi-form*/
+.bmi-form {	
+	text-align: center;
+	height: 100%;
+	background-color: #f6f6f6;
+	margin: 100px auto;
+	width: 300px;
+	border: 2px solid #000000; /*цвет рамки*/   
+    padding: 30px 40px 50px 40px;    
+}
+
+/* Свойсвта электронный ящик */
+
+.namec {	
+	padding: 8px 30px;
+	border: 1px solid #000000; /*цвет рамки*/
+	outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+}
+
+
+/* Свойства Пароль */
+
+.weightc {		
+	padding: 8px 30px;
+	border: 1px solid #000000; /*цвет рамки*/
+	outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+}
+
+.heightc {		
+	padding: 8px 30px;
+	border: 1px solid #000000; /*цвет рамки*/
+	outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+}
+
+
+.btn1 {	
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 12px 50px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */       
+  	cursor: pointer; 
+  	font-size: 20px; 
+  	margin-top: 20px;	
+   }
+
+ .btn1:hover {
+	background-color: #d3d3d3;
+	color: #000;
+}  
+
+.result{
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	color: red;
+}
+/* Конец свойства страницы loginform*/
+
